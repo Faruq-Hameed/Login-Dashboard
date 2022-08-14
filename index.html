@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Dashboard</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <main>
+        <div class="cart-container">
+            <object type="image/svg+xml" class="cart" data="cart.svg">
+                <img src="cart.png" class="cart" alt="Shopping Cart" />
+            </object>
+        </div>
+        <div class="form-group">
+            <div class="username-container">
+                <i class="fa-regular fa-user" id="user-icon"></i>
+                <input type="text" class="form-control" placeholder="Username" value="" required />
+            </div>
+            <div class="form-group">
+                <img src="lock.png" id="lock-icon" alt="password icon" width="15px" height="15px"/>
+                <input type="text" class="form-control" placeholder="password" value="" required />
+            </div>
+        </div>
+        <div class="btn-container">
+            <div class="submit">
+                <input type="submit" value="login" class="btn"/>
+            </div>
+            <div class="forgot-password">
+                <a href="#" class="pass" id="forgot-password">Forgot password?</a>
+            </div>
+        </div>              
+    </main>
+    <div class="big-circle"></div>
+    <script src="https://kit.fontawesome.com/986a964f8f.js" crossorigin="anonymous"></script>
+</body>
+</html>

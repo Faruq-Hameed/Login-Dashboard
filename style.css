@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #244BC5;
+
+}
+
+main{
+
+    position: relative;
+    display: grid;
+    width: 30rem;
+    height: 25rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center; 
+    top: 120px;
+
+}
+
+.cart-container{
+    padding-left: 5rem;
+     height: 80%;
+    width: 80%;
+} 
+
+.form-group{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    
+}
+
+.form-control{
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    height: 2rem;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+    padding-left: 50px;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+#user-icon, #lock-icon{
+    position: relative;
+    margin-left: 15px;
+    top: 28px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.btn-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+}
+
+.btn{
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    height: 2rem;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    color: #244BC5;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn:hover{
+background-color:  #244BC5;
+color: #FFFFFF;
+}
+
+#forgot-password{
+    position: absolute;
+    left: 8.9rem;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:'Montserrat', sans-serif;
+    text-align: end;
+    color:#FFFFFF;
+    background-color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 4px;
+}
+
+#forgot-password:hover{
+    background-color: #FFFFFF;
+    color: #244BC5;
+    border-radius: 4px;
+}
+
+main::after{
+    content: url(bg-right.png);
+    position:absolute;
+    padding-bottom: 0px;
+    z-index: 4;
+    height: 741px;
+}
+
+.big-circle{
+    outline: 5rem solid #264ECA;
+    border: 5rem solid #244BC5;
+    background-color: #264ECA;
+    content:"";
+    position:relative;
+    z-index: 4;
+    width: 8rem;
+    height: 8rem;
+    left: -140px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    bottom: -10px;
+}
